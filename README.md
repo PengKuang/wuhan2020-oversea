@@ -1,4 +1,5 @@
 # wuhan2020-oversea
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+consolidate and distribute information worldwide to help cope with coronavirus
+>>>>>>> acd767d5cec82373c3a0472a08f978f5f91ce0ff

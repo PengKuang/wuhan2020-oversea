@@ -1,0 +1,6 @@
+{
+  "firestore": {
+    "rules": "firebase-security",
+    "indexes": "firestore.indexes.json"
+  }
+}

@@ -1,17 +1,40 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <SubmitInfo msg="Pray for Wuhan" />
-  </div>
+  <b-container fluid>
+    <!-- <div> -->
+    <b-row id="fixedHeader" class="header text-center">
+      <b-col>
+        <Navbar />
+      </b-col>
+    </b-row>
+    <hr/>
+    <b-row>
+      <b-col>
+        <router-view></router-view>
+      </b-col>
+    </b-row>
+    <!-- <div id="app"> -->
+      
+      <!-- <SubmitInfo /> -->
+      <!-- <Infoprovider /> -->
+      <!-- <PassengerSearch /> -->
+    <!-- </div> -->
+    <!-- </div> -->
+  </b-container>
 </template>
 
 <script>
-import SubmitInfo from './components/SubmitInfo.vue'
+// import SubmitInfo from './components/SubmitInfo.vue'
+// import PassengerSearch from './components/PassengerSearch.vue'
+// import InfoProvider from './components/InfoProvider.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'app',
   components: {
-    SubmitInfo
+    Navbar
+    // SubmitInfo,
+    // PassengerSearch
+    // InfoProvider
   }
 }
 </script>
